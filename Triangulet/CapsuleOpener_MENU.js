@@ -1,6 +1,6 @@
 (async function TrianguletOpener() {
     // === CONFIG ===
-    const OPEN_DELAY = 1150;
+    const OPEN_DELAY = 230;
     const API_PACKS = '/data/trians';
     const API_OPEN = '/api/open';
     const AUTH = typeof triangulet !== 'undefined' ? triangulet.tokenraw : null;
